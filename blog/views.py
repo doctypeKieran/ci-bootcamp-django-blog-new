@@ -64,7 +64,7 @@ def post_detail(request, slug):
 
 def comment_edit(request, slug, comment_id):
     """
-    View to eddit comments
+    View to edit comments
     """
 
     if request.method == "POST":
